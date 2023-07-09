@@ -1,0 +1,12 @@
+{
+    "ingredientPattern": "S_S,PNP,SFS",
+    "ingredients": {
+        "S": { "type": "item", "code": "game:stick" },
+        "N": { "type": "item", "code": "game:metalnailsandstrips-*" },
+        "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 2 },
+        "F": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "composter-east", "attributes": { "type": "{wood}" } }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "code",
+    "modid": "composter",
+    "name": "Composter",
+    "description": "A container that decomposes food extremely fast",
+    "authors": ["Craluminum2413"],
+    "version": "1.0.5"
+}

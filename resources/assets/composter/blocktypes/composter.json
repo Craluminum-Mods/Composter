@@ -1,0 +1,265 @@
+{
+    "code": "composter",
+    "class": "Composter.BlockComposter",
+    "entityclass": "Composter.BlockEntityComposter",
+    "attributes": {
+        "handbook": {
+            "groupBy": ["composter-*"]
+        },
+        "partialAttachable": true,
+        "inventoryClassName": "chest",
+        "defaultType": "acacia",
+        "types": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"],
+        "rotatatableInterval": {
+            "acacia": "22.5degnot45deg",
+            "aged": "22.5degnot45deg",
+            "baldcypress": "22.5degnot45deg",
+            "birch": "22.5degnot45deg",
+            "ebony": "22.5degnot45deg",
+            "kapok": "22.5degnot45deg",
+            "larch": "22.5degnot45deg",
+            "maple": "22.5degnot45deg",
+            "oak": "22.5degnot45deg",
+            "pine": "22.5degnot45deg",
+            "purpleheart": "22.5degnot45deg",
+            "redwood": "22.5degnot45deg",
+            "walnut": "22.5degnot45deg"
+        },
+        "drop": {
+            "acacia": true,
+            "aged": true,
+            "baldcypress": true,
+            "birch": true,
+            "ebony": true,
+            "kapok": true,
+            "larch": true,
+            "maple": true,
+            "oak": true,
+            "pine": true,
+            "purpleheart": true,
+            "redwood": true,
+            "walnut": true
+        },
+        "quantitySlots": {
+            "acacia": 16,
+            "aged": 16,
+            "baldcypress": 16,
+            "birch": 16,
+            "ebony": 16,
+            "kapok": 16,
+            "larch": 16,
+            "maple": 16,
+            "oak": 16,
+            "pine": 16,
+            "purpleheart": 16,
+            "redwood": 16,
+            "walnut": 16
+        },
+        "spoilSpeedMulByFoodCat": {
+            "acacia": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "aged": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "baldcypress": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "birch": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "ebony": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "kapok": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "larch": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "maple": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "oak": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "pine": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "purpleheart": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "redwood": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
+            "walnut": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 }
+        },
+        "dialogTitleLangCode": {
+            "acacia": "chestcontents",
+            "aged": "chestcontents",
+            "baldcypress": "chestcontents",
+            "birch": "chestcontents",
+            "ebony": "chestcontents",
+            "kapok": "chestcontents",
+            "larch": "chestcontents",
+            "maple": "chestcontents",
+            "oak": "chestcontents",
+            "pine": "chestcontents",
+            "purpleheart": "chestcontents",
+            "redwood": "chestcontents",
+            "walnut": "chestcontents"
+        },
+        "storageType": {
+            "acacia": 189,
+            "aged": 189,
+            "baldcypress": 189,
+            "birch": 189,
+            "ebony": 189,
+            "kapok": 189,
+            "larch": 189,
+            "maple": 189,
+            "oak": 189,
+            "pine": 189,
+            "purpleheart": 189,
+            "redwood": 189,
+            "walnut": 189
+        },
+        "retrieveOnly": {
+            "acacia": false,
+            "aged": false,
+            "baldcypress": false,
+            "birch": false,
+            "ebony": false,
+            "kapok": false,
+            "larch": false,
+            "maple": false,
+            "oak": false,
+            "pine": false,
+            "purpleheart": false,
+            "redwood": false,
+            "walnut": false
+        },
+        "shape": {
+            "acacia": "composter:block/composter",
+            "aged": "composter:block/composter",
+            "baldcypress": "composter:block/composter",
+            "birch": "composter:block/composter",
+            "ebony": "composter:block/composter",
+            "kapok": "composter:block/composter",
+            "larch": "composter:block/composter",
+            "maple": "composter:block/composter",
+            "oak": "composter:block/composter",
+            "pine": "composter:block/composter",
+            "purpleheart": "composter:block/composter",
+            "redwood": "composter:block/composter",
+            "walnut": "composter:block/composter"
+        },
+        "typedOpenSound": {
+            "acacia": "game:sounds/block/planks",
+            "aged": "game:sounds/block/planks",
+            "baldcypress": "game:sounds/block/planks",
+            "birch": "game:sounds/block/planks",
+            "ebony": "game:sounds/block/planks",
+            "kapok": "game:sounds/block/planks",
+            "larch": "game:sounds/block/planks",
+            "maple": "game:sounds/block/planks",
+            "oak": "game:sounds/block/planks",
+            "pine": "game:sounds/block/planks",
+            "purpleheart": "game:sounds/block/planks",
+            "redwood": "game:sounds/block/planks",
+            "walnut": "game:sounds/block/planks"
+        },
+        "typedCloseSound": {
+            "acacia": "game:sounds/block/planks",
+            "aged": "game:sounds/block/planks",
+            "baldcypress": "game:sounds/block/planks",
+            "birch": "game:sounds/block/planks",
+            "ebony": "game:sounds/block/planks",
+            "kapok": "game:sounds/block/planks",
+            "larch": "game:sounds/block/planks",
+            "maple": "game:sounds/block/planks",
+            "oak": "game:sounds/block/planks",
+            "pine": "game:sounds/block/planks",
+            "purpleheart": "game:sounds/block/planks",
+            "redwood": "game:sounds/block/planks",
+            "walnut": "game:sounds/block/planks"
+        },
+        "variantByGroup": "side",
+        "variantByGroupInventory": null
+    },
+    "behaviors": [{ "name": "Lockable" }, { "name": "Container" }],
+    "variantgroups": [{ "code": "side", "loadFromProperties": "game:abstract/horizontalorientation" }],
+    "creativeinventory": {},
+    "creativeinventoryStacksByType": {
+        "*-east": [
+            {
+                "tabs": ["general", "decorative"],
+                "stacks": [
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "acacia" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "aged" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "baldcypress" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "birch" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "ebony" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "kapok" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "larch" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "maple" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "oak" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "pine" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "purpleheart" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "redwood" } },
+                    { "type": "block", "code": "composter-east", "attributes": { "type": "walnut" } }
+                ]
+            }
+        ]
+    },
+    "heldTpIdleAnimation": "holdunderarm",
+    "shapeInventory": { "base": "composter:block/composter-0" },
+    "shapeByType": {
+        "*-north": { "rotateY": 0 },
+        "*-east": { "rotateY": 270 },
+        "*-west": { "rotateY": 90 },
+        "*-south": { "rotateY": 180 }
+    },
+    "textures": {
+        "acacia-lid": { "base": "game:block/wood/debarked/acacia" },
+        "aged-lid": { "base": "game:block/wood/debarked/aged" },
+        "baldcypress-lid": { "base": "game:block/wood/debarked/baldcypress" },
+        "birch-lid": { "base": "game:block/wood/debarked/birch" },
+        "ebony-lid": { "base": "game:block/wood/debarked/ebony" },
+        "kapok-lid": { "base": "game:block/wood/debarked/kapok" },
+        "larch-lid": { "base": "game:block/wood/debarked/larch" },
+        "maple-lid": { "base": "game:block/wood/debarked/maple" },
+        "oak-lid": { "base": "game:block/wood/debarked/oak" },
+        "pine-lid": { "base": "game:block/wood/debarked/pine" },
+        "purpleheart-lid": { "base": "game:block/wood/debarked/purpleheart" },
+        "redwood-lid": { "base": "game:block/wood/debarked/redwood" },
+        "walnut-lid": { "base": "game:block/wood/debarked/walnut" }
+    },
+    "blockmaterial": "Wood",
+    "replaceable": 900,
+    "resistance": 3,
+    "lightAbsorption": 0,
+    "sideAo": { "all": false },
+    "sidesolid": {
+        "all": false
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "collisionSelectionBox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 1,
+        "z2": 0.9375
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 35
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "hit": "game:block/planks",
+        "break": "game:block/planks",
+        "walk": "game:walk/wood"
+    },
+    "materialDensity": 600,
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.9,
+            "y": -0.5,
+            "z": -0.3
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": -102
+        },
+        "scale": 0.56
+    },
+    "guiTransform": {
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1.16
+    }
+}
