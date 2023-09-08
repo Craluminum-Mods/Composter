@@ -55,21 +55,6 @@
             "redwood": 16,
             "walnut": 16
         },
-        "spoilSpeedMulByFoodCat": {
-            "acacia": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "aged": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "baldcypress": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "birch": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "ebony": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "kapok": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "larch": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "maple": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "oak": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "pine": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "purpleheart": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "redwood": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 },
-            "walnut": { "-1": 10, "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10 }
-        },
         "dialogTitleLangCode": {
             "acacia": "chestcontents",
             "aged": "chestcontents",
@@ -209,7 +194,21 @@
         "pine-lid": { "base": "game:block/wood/debarked/pine" },
         "purpleheart-lid": { "base": "game:block/wood/debarked/purpleheart" },
         "redwood-lid": { "base": "game:block/wood/debarked/redwood" },
-        "walnut-lid": { "base": "game:block/wood/debarked/walnut" }
+        "walnut-lid": { "base": "game:block/wood/debarked/walnut" },
+
+        "acacia-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "aged-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "baldcypress-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "birch-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "ebony-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "kapok-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "larch-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "maple-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "oak-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "pine-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "purpleheart-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "redwood-nail": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "walnut-nail": { "base": "game:block/metal/tarnished/rusty-iron" }
     },
     "blockmaterial": "Wood",
     "replaceable": 900,
