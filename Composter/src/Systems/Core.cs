@@ -2,26 +2,30 @@ global using Vintagestory.API.Common;
 global using Vintagestory.API.Config;
 global using Vintagestory.API.MathTools;
 global using Vintagestory.GameContent;
-
-[assembly: ModInfo(name: "Composter", modID: "composter", Side = "Universal")]
+using Composter.Configuration;
 
 namespace Composter;
 
 public class Core : ModSystem
 {
-    public static Config Config { get; private set; }
+    public ConfigComposter Config { get; private set; }
+
+    public static Core GetInstance(ICoreAPI api) => api.ModLoader.GetModSystem<Core>();
 
     public override void StartPre(ICoreAPI api)
     {
-        base.StartPre(api);
-        Config = ModConfig.ReadConfig(api);
+        if (!api.Side.IsServer())
+        {
+            return;
+        }
+
+        Config = ModConfig.ReadConfig<ConfigComposter>(api, "Composter.json");
     }
 
     public override void Start(ICoreAPI api)
     {
-        base.Start(api);
         api.RegisterBlockClass("Composter.BlockComposter", typeof(BlockComposter));
         api.RegisterBlockEntityClass("Composter.BlockEntityComposter", typeof(BlockEntityComposter));
-        api.World.Logger.Event("started '{0}' mod", Mod.Info.Name);
+        Mod.Logger.Event("started '{0}' mod", Mod.Info.Name);
     }
 }
